@@ -1,0 +1,33 @@
+.timer {
+    min-width: 300px;
+  }
+  
+  .timer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+  }
+  
+  .timer-display {
+    text-align: center;
+  }
+  
+  .timer-display p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .timer-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .timer-controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  

@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Getting Started with Create Planner-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Weather Widget**
 
-## Available Scripts
+The Weather Widget is a custom widget in the Planner-App that utilizes the API from
+openweathermap.org. This widget offers several useful features that enhance the user experience:
 
-In the project directory, you can run:
+*Dynamic Location:* The Weather Widget automatically detects the user's location and provides
+real-time weather information for that specific area. This eliminates the need for manual input of
+location details.
 
-### `npm start`
+*Local Language Support:*The widget supports multiple languages, allowing users to view weather
+information in their preferred language. This enhances accessibility and ensures a personalized
+experience for users worldwide.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*Temperature Display:* The Weather Widget provides the current temperature in the user's location.
+This allows users to quickly gauge the current weather conditions without having to consult external
+sources.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Forecast Updates:* Along with the current temperature, the widget also offers forecast updates for
+the local weather. Users can stay informed about upcoming weather patterns, enabling them to plan
+their activities accordingly.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Weather Widget in the Planner-App combines convenience, localization, and accurate weather
+information, making it an essential tool for users to stay informed and effectively plan their
+day-to-day activities.

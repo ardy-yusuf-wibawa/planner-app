@@ -1,0 +1,10 @@
+.weather-container {
+    display: flex;
+  }
+  .weather-info {
+    min-width: 300px;
+  }
+  .weather-text {
+    text-transform: uppercase;
+  }
+  
