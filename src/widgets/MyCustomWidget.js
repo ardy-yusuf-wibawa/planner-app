@@ -13,7 +13,7 @@ export default function MyCustomWidget() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const apiURL = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&lang=${language}`
+                const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&lang=${language}`
                 const response = await axios.get(apiURL);
                 setLanguage(response.data.sys.country)
                 setWeatherData(response.data);
@@ -60,7 +60,6 @@ export default function MyCustomWidget() {
         <img width="100" height="100" src={imageUrl} alt={weatherMain || "sky"} />
     );
 
-    console.log(weatherData);
     return (
         <div className='weather-container'>
             <div className='weather-info'>
