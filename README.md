@@ -9,7 +9,7 @@ openweathermap.org. This widget offers several useful features that enhance the 
 real-time weather information for that specific area. This eliminates the need for manual input of
 location details.
 
-*Local Language Support:*The widget supports multiple languages, allowing users to view weather
+*Local Language Support:* The widget supports multiple languages, allowing users to view weather
 information in their preferred language. This enhances accessibility and ensures a personalized
 experience for users worldwide.
 
