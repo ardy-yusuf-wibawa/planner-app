@@ -65,7 +65,7 @@ function LeftWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
             onAreaChange={onAreaChange}
           />
         ))}
-      {widgets.filter((widget) => widget.area === 'left-widget').length < 3 && (
+      {widgets.filter(widget => widget.area === 'left-widget').length < 3 && widgets.filter(widget => widget.area === 'left-widget').length > 0 && (
         <button className="add-widget-button" onClick={() => onAddWidget('left-widget')}>
           + Add Widget
         </button>
@@ -73,6 +73,8 @@ function LeftWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
     </div>
   );
 }
+
+
 
 function MainWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
   return (
@@ -87,7 +89,7 @@ function MainWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
             onAreaChange={onAreaChange}
           />
         ))}
-      {widgets.filter((widget) => widget.area === 'main-widget').length < 2 && (
+      {widgets.filter((widget) => widget.area === 'main-widget').length < 2 && widgets.filter(widget => widget.area === 'main-widget').length > 0 && (
         <button className="add-widget-button" onClick={() => onAddWidget('main-widget')}>
           + Add Widget
         </button>
@@ -109,7 +111,7 @@ function RightWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
             onAreaChange={onAreaChange}
           />
         ))}
-      {widgets.filter((widget) => widget.area === 'right-widget').length < 3 && (
+      {widgets.filter((widget) => widget.area === 'right-widget').length < 3 && widgets.filter(widget => widget.area === 'right-widget').length > 0 && (
         <button className="add-widget-button" onClick={() => onAddWidget('right-widget')}>
           + Add Widget
         </button>
