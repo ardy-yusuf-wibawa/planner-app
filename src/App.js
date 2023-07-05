@@ -12,7 +12,7 @@ export default function App() {
     { id: new Date().getTime(), component: <ClockWidget />, area: 'main-widget', name: "Date and Time" },
     { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'right-widget', name: "Calendar" },
     { id: new Date().getTime() + 1, component: <TimerWidget />, area: 'left-widget', name: "Timer" },
-    { id: new Date().getTime() + 3, component: <MyCustomWidget />, area: 'left-widget', name: "Weather" },
+    { id: new Date().getTime() + 3, component: <MyCustomWidget />, area: 'none-widget', name: "Weather" },
   ])
   const [showWidgetModal, setShowWidgetModal] = useState(false)
   const [selectedWidgetArea, setSelectedWidgetArea] = useState('')
