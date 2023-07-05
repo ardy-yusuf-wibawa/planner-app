@@ -105,7 +105,7 @@ export default function TimerWidget() {
     return (
         <div className='timer'>
             <div className='timer-text'>
-                <p>Timer (in seconds)</p>
+                <label htmlFor='timer-value'>Timer (in seconds)</label>
             </div>
             <div className='timer-container'>
                 <div className='timer-display'>
@@ -113,6 +113,7 @@ export default function TimerWidget() {
                         <p>{tidyTime(timerListData.time)}</p>
                     ) : (
                         <input
+                            id='timer-value'
                             type='text'
                             className='text-input'
                             value={timerListData.time}
