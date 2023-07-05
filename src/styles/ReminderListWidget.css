@@ -1,16 +1,15 @@
 .reminder-container {
-    min-width: 300px;
-  }
-  .reminder-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: row;
-  }
-  .reminder-button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-  }
-  
+  min-width: 300px;
+}
+.reminder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: row;
+}
+.reminder-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}

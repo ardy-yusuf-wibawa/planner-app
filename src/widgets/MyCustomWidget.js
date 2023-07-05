@@ -57,7 +57,7 @@ export default function MyCustomWidget() {
     const weatherMain = weatherData?.weather?.[0]?.main;
     const imageUrl = weatherImageMap[weatherMain] || "https://img.icons8.com/plasticine/100/sky.png";
     const weatherImage = (
-        <img width="100" height="100" src={imageUrl} alt={weatherMain || "sky"} />
+        <img width="80" height="80" src={imageUrl} alt={weatherMain || "sky"} />
     );
 
     return (
