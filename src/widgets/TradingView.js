@@ -24,7 +24,7 @@ export default function TradingViewWidget() {
             ]
           ],
           "chartOnly": false,
-          "width": "500",
+          "width": "350",
           "height": "210",
           "locale": "en",
           "colorTheme": "light",

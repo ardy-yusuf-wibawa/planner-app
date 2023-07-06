@@ -17,8 +17,6 @@ export default function MyCustomWidget() {
                 const response = await axios.get(apiURL);
                 setLanguage(response.data.sys.country)
                 setWeatherData(response.data);
-                console.log('data berubah');
-                console.log(response.data);
             } catch (error) {
                 console.error('Error fetching weather data:', error);
             }
