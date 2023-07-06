@@ -24,6 +24,10 @@ export default function MyCustomWidget() {
 
         if (latitude !== null && longitude !== null) {
             fetchData();
+            const interval = setInterval(fetchData, 300000); // Repeat every 5 minute
+            return () => {
+                clearInterval(interval);
+            };
         }
     }, [latitude, longitude, apiKey, language]);
 
