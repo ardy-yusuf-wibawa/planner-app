@@ -4,6 +4,7 @@ import ReminderListWidget from '../widgets/ReminderListWidget';
 import TimerWidget from '../widgets/TimerWidget';
 import CalendarWidget from '../widgets/CalendarWidget';
 import MyCustomWidget from '../widgets/MyCustomWidget';
+import TradingView from '../widgets/TradingView';
 
 function WidgetGalleryItem({ widget, onClick }) {
     return (
@@ -29,6 +30,7 @@ export default function WidgetGalleryModal({
         { component: <TimerWidget />, name: "Timer" },
         { component: <CalendarWidget />, name: "Calendar" },
         { component: <MyCustomWidget />, name: "Weather" },
+        { component: <TradingView />, name: "Trade" },
     ]);
 
     const addWidget = (widget) => {

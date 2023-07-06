@@ -6,6 +6,7 @@ import Draggable from 'react-draggable';
 import TimerWidget from './widgets/TimerWidget';
 import CalendarWidget from './widgets/CalendarWidget';
 import MyCustomWidget from './widgets/MyCustomWidget';
+import TradingView from './widgets/TradingView';
 
 function Widget({ widget, onRemove, onAreaChange }) {
   const { id, component, area } = widget;
@@ -123,9 +124,10 @@ function RightWidgetArea({ widgets, onRemove, onAreaChange, onAddWidget }) {
 export default function App() {
   const [widgets, setWidgets] = useState([
     { id: new Date().getTime(), component: <ClockWidget />, area: 'main-widget', name: "Date and Time" },
-    { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'right-widget', name: "Calendar" },
     { id: new Date().getTime() + 1, component: <TimerWidget />, area: 'left-widget', name: "Timer" },
+    { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'right-widget', name: "Calendar" },
     { id: new Date().getTime() + 3, component: <MyCustomWidget />, area: 'left-widget', name: "Weather" },
+    { id: new Date().getTime() + 4, component: <TradingView />, area: 'none-widget', name: "Chart" },
   ]);
   const [showWidgetModal, setShowWidgetModal] = useState(false);
   const [selectedWidgetArea, setSelectedWidgetArea] = useState('');
