@@ -1,6 +1,4 @@
-# Getting Started with Create Planner-App
-
-**Weather Widget**
+# Weather Widget
 
 The Weather Widget is a custom widget in the Planner-App that utilizes the API from
 openweathermap.org. This widget offers several useful features that enhance the user experience:
